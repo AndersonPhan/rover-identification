@@ -1,9 +1,8 @@
-# Rover Yolov5 Object Detection
+# Yolov5 Object Detection for Autonomous Mapping Rover
 
 ## Introduction
 
-This machine learning model was created and impemented on an autnomous navigating mapping rover that utilizes slam. One problem that the rover had was that it was 
-unable to differentiate between obstacles using only its LiDAR. This limitation makes the difficult for the rover to decide whether to drive over an object or 
+This machine learning model was created and impemented on an autonomous navigating mapping rover that utilizes slam. One problem that the rover had was that it was unable to differentiate between obstacles using only its LiDAR. This limitation makes the difficult for the rover to decide whether to drive over an object or 
 around it.
 
 To address this problem, I developed a computer vision-based object detection model using YOLOv5. The model identifies two key object classes: Wooden Block and Ramp.
